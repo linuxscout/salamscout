@@ -127,3 +127,14 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+# custom
+archives/
+dev/
+/data/.svn/all-wcprops
+/data/.svn/entries
+/data/.svn/prop-base/verbdict.db.svn-base
+/data/.svn/text-base/ar_verb_normalized.dict.svn-base
+/data/.svn/text-base/verbdict.db.svn-base
+/docs/.svn/entries
+/docs/.svn/text-base/description.txt.svn-base
+/docs/.svn/text-base/logs.txt.svn-base

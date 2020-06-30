@@ -1,0 +1,929 @@
+/* <pre dir="ltr"> */
+
+div#editpage-specialchars a
+{
+    text-decoration: none;
+}
+div#editpage-specialchars a:hover
+{
+    text-decoration: underline;
+}
+
+/*  */
+.usermessage {
+    vertical-align: middle;
+}
+
+/*  */
+p.error
+{
+  font-weight:bold;
+}
+
+/*  */
+span#URLSource
+{
+    direction: ltr;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+table.diff
+{
+    padding: 0.5em;
+}
+td.diff-addedline
+{
+    background-color: #D8E4F6; 
+}
+td.diff-addedline span.diffchange
+{
+    background-color: #B0C0F0;
+    color: #001040;
+    font-weight: bold;
+}
+td.diff-deletedline
+{
+    background-color: #E4F6D8;
+}
+td.diff-deletedline span.diffchange
+{
+    background-color: #B0E897;
+    color: #104000;
+    font-weight: bold;
+}
+
+/*  */
+table.metadata
+{
+    float: right;
+}
+
+/*  */
+span#edit-for-sysops
+{
+    display: none;
+}
+
+/*  */
+div.sharedUploadNotice
+{
+    font-style: normal;
+}
+
+/*  */
+div#shared-image-desc
+{
+    direction: ltr;
+}
+
+/*  */
+input#wpUploadFile, input#wpDestFile, input#wpLicense
+{
+   float: right;
+}
+
+/* default skin for navigation boxes */ table.navbox {
+
+   /* background-color: #f9f9f9; */
+   border: 1px solid #aaa;
+   clear: both;
+   font-size: 90%;
+   margin: 1em 0em 0em;
+   padding: 2px;
+   text-align: center;
+   width: 100%;
+}
+
+table.navbox th {
+
+   background-color: #ccf;
+   padding-left: 1em;
+   padding-right: 1em;
+}
+
+table.navbox tr:not(:first-child) th {
+
+   background-color: #ddf;
+}
+
+@media print {
+
+   .navbox {
+       display: none;
+   }
+}
+
+/* ־Site Notice */
+div#siteNotice
+{
+    padding-top: 5px;
+    text-align: center;
+}
+
+/*  */
+
+/* Support for Template:IPA, Template:Unicode and Template:Polytonic. The inherit declaration resets the font for all browsers except MSIE6.  The empty comment must remain. */
+.IPA
+{
+    font-family: Chrysanthi Unicode, Doulos SIL, Gentium, GentiumAlt, Code2000, TITUS Cyberbit Basic, DejaVu Sans, Bitstream Vera Sans, Bitstream Cyberbit, Arial Unicode MS, Lucida Sans Unicode, Hiragino Kaku Gothic Pro, Matrix Unicode;
+    font-family /**/:inherit;
+}
+
+/* Infobox template style */
+.infobox {
+   border: 1px solid #aaaaaa;
+   background-color: #f9f9f9;
+   color: black;
+   margin-bottom: 0.5em;
+   margin-right: 1em;
+   padding: 0.2em;
+   float: left;
+   clear: left;
+}
+.infobox td,
+.infobox th {
+   vertical-align: top;
+}
+.infobox caption {
+   font-size: larger;
+   margin-left: inherit;
+}
+.infobox.bordered {
+   border-collapse: collapse;
+}
+.infobox.bordered td,
+.infobox.bordered th {
+   border: 1px solid #aaaaaa;
+}
+.infobox.bordered .borderless td,
+.infobox.bordered .borderless th {
+   border: 0;
+}
+
+/*  */
+div.Boxmerge, div.NavFrame
+{
+    border-collapse: collapse;
+    border-color: #AAAAAA;
+    border-style: solid;
+    border-width: 1px;
+    font-size: 95%;
+    margin: 0px;
+    padding: 2px;
+    text-align: center;
+}
+div.Boxmerge div.NavFrame
+{
+    border-style: none;
+    border-style: hidden;
+}
+div.NavFrame + div.NavFrame
+{
+    border-top-style: none;
+    border-top-style: hidden;
+}
+div.NavPic
+{
+    background-color: #FFFFFF;
+    float: left;
+    margin: 0px;
+    margin-top: 0.5em;
+    padding: 2px;
+}
+div.NavFrame div.NavHead
+{
+    background-color: #EFEFEF;
+    font-size: 100%;
+    font-weight: bold;
+    height: 1.6em;
+    position: relative;
+}
+div.NavFrame p
+{
+    font-size: 100%;
+}
+div.NavFrame div.NavContent
+{
+    font-size: 100%;
+}
+div.NavFrame div.NavContent p
+{
+    font-size: 100%;
+}
+div.NavEnd
+{
+    clear: both;
+    line-height: 1px;
+    margin: 0px;
+    padding: 0px;
+}
+a.NavToggle
+{
+    font-size: smaller;
+    font-weight: normal;
+    left: 3px;
+    position: absolute;
+    top: 0px;
+}
+
+/*  */
+
+/*  */
+div#content ul
+{
+    display: table;
+}
+body.ns-6 div#content ul#filetoc,
+body.ns-14 div#content ul
+{
+    display: block;
+}
+html > body div#content ol
+{
+    clear: left;
+}
+
+body
+{
+    letter-spacing: 0.001em;
+}
+
+/* حل مشكلة عدم إمكانية الضغط على التصنيفات التي تحوي عددا في إنترنت إكسبلورر 6.0 */
+* html div#catlinks
+{
+    position: static;
+}
+
+/*  */
+@media print
+{
+    /*  */
+    .printfooter
+    {
+        display: none;
+    }
+}
+
+.audiolink a
+{
+    background: url("http://upload.wikimedia.org/wikipedia/commons/f/f7/Loudspeaker.png") center right no-repeat !important;
+    padding-left: 16px !important;
+    padding-right: 0 !important;
+}
+html > body .audiolink a
+{
+    background: none !important;
+    padding-left: 0 !important;
+}
+
+/* wikitable/prettytable class for skinning normal tables */
+
+table.wikitable, table.prettytable {
+	margin: 1em 0 1em 1em;
+	background-color: #F9F9F9;
+	border: 1px #aaaaaa solid;
+	border-collapse: collapse;
+}
+
+table.wikitable th, table.wikitable td, table.prettytable th, table.prettytable td {
+	border: 1px #aaaaaa solid;
+	padding: 0.2em;
+}
+
+table.wikitable th, table.prettytable th {
+	background-color: #F2F2F2;
+	text-align: center;
+}
+
+table.wikitable caption, table.prettytable caption {
+	margin-left: inherit;
+	margin-right: inherit;
+}
+
+/* hiddenStructure from Monobook - allows selective hiding of markup in templates */
+.hiddenStructure {
+   display: none;
+   speak: none;
+}
+
+/* كلاسات لقوالب النقاش */
+
+.messagebox {
+   border: 1px solid #aaaaaa;
+   background-color: #f9f9f9;
+   width: 80%;
+   margin: 0 auto 1em auto;
+   padding: .2em;
+   text-align: justify;
+}
+.messagebox.merge {
+   border: 1px solid #cf9fff;
+   background-color: #f5edf5;
+   text-align: center;
+}
+.messagebox.cleanup {
+   border: 1px solid #9f9fff;
+   background-color: #efefff;
+   text-align: center;
+}
+.messagebox.standard-talk {
+   border: 1px solid #c0c090;
+   background-color: #f8eaba;
+}
+.messagebox.small-talk {
+  width: 238px;
+  font-size: 85%;
+  float: left;
+  clear: both;
+  margin: 0 0 1em 1em;
+  line-height: 1.25em; 
+  background: #F8EABA;
+}
+
+.infobox.sisterproject {
+   width: 20em;
+   font-size: 90%;
+}
+ /************************/
+/*
+** Logo properties with modified height value to meet the actual logo hieght, 165px.*/
+ /************************/
+#p-logo {
+	height: 165px;
+}
+
+#p-logo a,
+#p-logo a:hover {
+	height: 165px;
+}
+
+/************************/
+  /* CommonsTicker styles */
+  /************************/
+ 
+  /* links */
+  .tickerDiffLink { } /* diff links in ticker */
+  .tickerMiscLink { } /* misc links in ticker */
+ 
+  /* remove list bullets */
+  .tickerList ul,    .tickerList ul li    { list-style: none; text-indent:-2em; margin-right:2em;   text-align:right; }
+  .tickerList ul ul, .tickerList ul ul li { list-style: none; text-indent:0;    margin-right:1.5em; text-align:right; }
+
+  /* per-type styles */
+  .tickerEntry_deleted     { }  /* entry for image deletion */
+  .tickerEntry_restored    { }  /* entry for restored image */
+  .tickerEntry_replaced    { }  /* entry for image replacement */
+  .tickerEntry_tagged      { }  /* entry for adding/removing problem tags */
+  .tickerEntry_redir       { }  /* entry for critical redirection (fot tag redirects) */
+  .tickerEntry_recat       { }  /* entry for critical re-categorization (for tag categories) */
+  .tickerEntry_notify      { }  /* entry for global notifications */
+  .tickerEntry_changed     { }  /* entry for generic change */
+
+  /* per-status styles */
+  .tickerStatus_done     { text-decoration:line-through; }  /* strike through when entry has been handeled */
+
+  /* per-action styles */
+  .tickerAction_deleted:before     { content:" حذفت "; color: #FF0000; font-family:monospace; font-weight:bold; font-size:100%; }  
+  .tickerAction_restored:before    { content:" استرجعت "; color: #00BB00; font-family:monospace; font-weight:bold; font-size:100%; }  
+  .tickerAction_deletedRev:before  { content:" -OLD "; color: #DDAAAA; font-family:monospace; font-weight:bold; font-size:100%; }  
+  .tickerAction_replaced:before    { content:" استبدلت "; color: #CC88FF; font-family:monospace; font-weight:bold; font-size:100%; }  
+  .tickerAction_replacedOwn:before { content:" حدثت "; color: #EEAAFF; font-family:monospace; font-weight:bold; font-size:100%; }  
+  .tickerAction_addedBad:before    { content:" +حذف "; color: #FF8800; font-family:monospace; font-weight:bold; font-size:100%; }  
+  .tickerAction_removedBad:before  { content:" -حذف "; color: #00BB00; font-family:monospace; font-weight:bold; font-size:100%; }  
+  .tickerAction_addedGood:before   { content:" +OK  "; color: #00BB00; font-family:monospace; font-weight:bold; font-size:100%; }  
+  .tickerAction_removedGood:before { content:" -OK  "; color: #FF8800; font-family:monospace; font-weight:bold; font-size:100%; }
+
+  /* ticker usage list */
+  .tickerUsage  { font-size:80%; }  
+
+  /* entry applies to a template used by multiple images */
+  .tickerTemplateEntry    { font-weight: bold; } 
+
+  /* entry applies to sub-entries, i.e. images that use a specific template */
+  .tickerSubEntry         { }                       
+
+  /* minor entry styles */ 
+  .tickerMinorEntry  { color:#666; }     /* minor entry */
+  .tickerMinorEntry a,
+  .tickerMinorEntry a:link,
+  .tickerMinorEntry a:visited { color:#669; }
+  #bodyContent .tickerMinorEntry a.extiw,
+  #bodyContent .tickerMinorEntry a.extiw:link,
+  #bodyContent .tickerMinorEntry a.extiw:visited { color:#669; }
+
+/* لإظهار ماإذا كانت خلفية أي صورة شفافة */
+#file img {background: url("http://upload.wikimedia.org/wikipedia/commons/5/5d/Checker-16x16.png") repeat;}
+
+/* كلاسات للاستخدام مع المصادر */
+ol.references {
+    font-size: 100%;
+}
+.references-small { font-size: 90%;}
+.references-2column {
+    font-size: 90%;
+    -moz-column-count: 2;
+    -webkit-column-count: 2;
+    column-count: 2;
+}
+.same-bg { background: none; }
+ol.references > li:target {
+    background-color: #DEF;
+}
+sup.reference:target { 
+    background-color: #DEF;
+}
+/* كلاس لخلفية شفافة */
+
+.same-bg { background: none }
+
+/*Yخفاء عنوان الصفحة الرئيسية وأشياء أخرى*/
+
+body.page-الصفحة_الرئيسية #deleteconfirm,
+body.page-الصفحة_الرئيسية #t-cite,
+body.page-الصفحة_الرئيسية #lastmod, 
+body.page-الصفحة_الرئيسية #siteSub, 
+body.page-الصفحة_الرئيسية h1.firstHeading {
+    display: none !important;
+}
+
+.infobox_v2 { /* monobookocentré debut */
+ background: #f9f9f9;
+ color: #000;
+ font-size:90%;
+ line-height:1.1em; 
+ float:left;
+ clear:left;
+ margin:0 1em 1em 0; /* haut droite bas gauche */
+ width:300px;
+ border: 1px solid #aaa;
+ padding: 0.1em;
+}
+ 
+.infobox_v2 th {
+ vertical-align:top;
+ text-align:left;
+}
+ 
+.infobox_v2 th a {
+ color:black;  /* désactive la couleur des liens à gauche */
+}
+ 
+.infobox_v2 .entete {
+ height:45px;
+ vertical-align:middle;
+ text-align:center;
+ font-size:150%; 
+ font-weight:bolder;
+ line-height:1.2em;
+ color:#000
+}
+ 
+.infobox_v2 .media { /* css V2 لأجل [[قالب:Son]], [[قالب:Vidéo]], etc. */
+height:35px;
+vertical-align:middle;
+text-align:center;
+font-weight:bolder;
+color:#000
+}
+
+/* رسومات صندوق المعلومات 2 */
+.entete.defaut       {}
+ 
+.entete.bd           {background: url("http://upload.wikimedia.org/wikipedia/commons/2/2c/Picto_infobox_comicballoon.png") no-repeat top right;}
+.entete.biere        {background: url("http://upload.wikimedia.org/wikipedia/commons/0/04/Picto_infobox_beer.png")         no-repeat top right;}
+.entete.canada       {background: url("http://upload.wikimedia.org/wikipedia/commons/6/6a/Picto_infobox_Canada.png")       no-repeat top right;}
+.entete.cinema       {background: url("http://upload.wikimedia.org/wikipedia/commons/e/ea/Picto_infobox_cinema.png")       no-repeat top right;}
+.entete.communication       {background: url("http://upload.wikimedia.org/wikipedia/commons/a/a2/Picto_infobox_antenna.png")      no-repeat top right;}
+.entete.humain       {background: url("http://upload.wikimedia.org/wikipedia/commons/8/82/Picto_infobox_manwoman.png")     no-repeat top right;}
+.entete.jeuvideo     {background: url("http://upload.wikimedia.org/wikipedia/commons/2/2d/Picto_infobox_gamepad.png")      no-repeat bottom right;}
+.entete.map          {background: url("http://upload.wikimedia.org/wikipedia/commons/7/7a/Picto_infobox_map.png")          no-repeat top right;}
+.entete.musique      {background: url("http://upload.wikimedia.org/wikipedia/commons/6/60/Picto_infobox_music.png")        no-repeat top right;}
+.entete.persofiction {background: url("http://upload.wikimedia.org/wikipedia/commons/3/37/Picto_infobox_masks.png")        no-repeat top right;}
+.entete.quebec       {background: url("http://upload.wikimedia.org/wikipedia/commons/2/21/Picto_infobox_Quebec.png")        no-repeat top right;}
+.entete.sport        {background: url("http://upload.wikimedia.org/wikipedia/commons/8/8e/Picto_infobox_Olympic.png")     no-repeat top right;}
+.media.audio {background: url("http://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Gnome-speakernotes.png/35px-Gnome-speakernotes.png") no-repeat top left;} 
+.media.video {background: url("http://upload.wikimedia.org/wikipedia/en/thumb/2/20/Tango-video-x-generic.png/35px-Tango-video-x-generic.png") no-repeat top left;}
+.entete.science-fiction        {background: url("http://upload.wikimedia.org/wikipedia/commons/e/ed/Picto_infobox_fliyingsaucer.png")     no-repeat top right;} 
+.entete.theatre           {background: url("http://upload.wikimedia.org/wikipedia/commons/3/37/Picto_infobox_masks.png") no-repeat top right;}
+.entete.auteur        {background: url("http://upload.wikimedia.org/wikipedia/commons/1/1e/Picto_infobox_auteur.png")         no-repeat top right;}
+ 
+/* نهاية صندوق المعلومات 2*/ /* monobookocentré fin */
+
+/* رسوم الصفحة الرئيسية */
+@media print {
+    #privacy, #about, #disclaimer {display:none;}
+}
+ 
+#EnWpMpBook { background-image: url(http://upload.wikimedia.org/wikipedia/en/7/7e/MP-open-book.png); }
+#EnWpMpSearch { background: url(http://upload.wikimedia.org/wikipedia/en/a/ae/MP-magnifying-glass.png) no-repeat top right; }
+#EnWpMpSearchInner { float: right; width: 20em; text-align: center; }
+#EnWpMpBook2 { background-image: url(http://upload.wikimedia.org/wikipedia/commons/8/8e/MP-open-book2.png); }
+
+/* كلاس لقوالب التوضيح. انظر مثلا [[قالب:رئيسي]] ، [[قالب:رسالة توضيح]] */
+.dablink {
+  font-style:italic;
+  padding-right:2em;
+}
+
+.allpagesredirect {
+    font-style: italic;
+}
+
+/* Article message box styles */
+table.ambox {
+    margin: 0px 10%;   /* 10% = Will not overlap with other elements */
+    border: 1px solid #aaa; 
+    border-right: 10px solid #1e90ff;    /* Default "notice" blue */
+    background: #fbfbfb; 
+}
+table.ambox + table.ambox {   /* Single border between stacked boxes. */
+    margin-top: -1px;
+}
+table.ambox th.ambox-text, table.ambox td.ambox-text {      /* The message body cell(s) */
+    padding: 0.25em 0.5em;            /* 0.5em left/right */
+    width: 100%;                      /* Make all templates the same width regardless of text size */
+}
+table.ambox td.ambox-image {          /* The right image cell */
+    padding: 2px 0px 2px 0.5em;       /* 0.5em left, 0px right */
+    text-align: center; 
+}
+table.ambox td.ambox-imageright {     /* The right image cell */
+    padding: 2px 4px 2px 0px;         /* 0px left, 4px right */
+    text-align: center; 
+}
+.ambox th.mbox-text, 
+.ambox td.mbox-text {            /* The message body cell(s) */
+    padding: 0.25em 0.5em;       /* 0.5em left/right */
+}
+.ambox td.mbox-image {           /* The left image cell */
+    padding: 2px 0 2px 0.5em;    /* 0.5em left, 0px right */
+}
+.ambox td.mbox-imageright {      /* The right image cell */
+    padding: 2px 0.5em 2px 0;    /* 0px left, 0.5em right */
+}
+table.ambox-notice {
+    border-right: 10px solid #1e90ff;    /* Blue */
+}
+table.ambox-speedy {
+    border-right: 10px solid #b22222;    /* Red */
+    background: #fee;                   /* Pink */
+}
+table.ambox-delete {
+    border-right: 10px solid #b22222;    /* Red */
+}
+table.ambox-content {
+    border-right: 10px solid #f28500;    /* Orange */
+}
+table.ambox-style {
+    border-right: 10px solid #f4c430;    /* Yellow */
+}
+table.ambox-move {
+    border-right: 10px solid #9932cc;    /* Purple */
+}
+table.ambox-protection {
+    border-right: 10px solid #bba;       /* Gray-gold */
+}
+table.ambox-serious {
+    border-color:  #b22222;     /* Red */
+}
+
+table.ambox-merge {
+    border-color:  #9932cc;     /* Purple */
+}
+table.ambox.ambox-mini {                 /* small floating box variant */
+    float: right;
+    clear: right;
+    margin: 0 0 0 1em;
+    width: 25%;
+}
+
+/* Image message box styles */
+table.imbox {
+    margin: 4px 10%; 
+    border-collapse: collapse; 
+    border: 3px solid #1e90ff;    /* Default "notice" blue */
+    background: #fbfbfb;
+}
+.imbox .mbox-text .imbox {    /* For imboxes inside imbox-text cells. */
+    margin: 0 -0.5em;    /* 0.9 - 0.5 = 0.4em left/right. */
+}
+.mbox-inside .imbox {    /* For imboxes inside other templates. */
+    margin: 4px;
+}
+ 
+table.imbox-notice {
+    border: 3px solid #1e90ff;    /* Blue */
+}
+table.imbox-speedy {
+    border: 3px solid #b22222;    /* Red */
+    background: #fee;             /* Pink */
+}
+table.imbox-delete {
+    border: 3px solid #b22222;    /* Red */
+}
+table.imbox-content {
+    border: 3px solid #f28500;    /* Orange */
+}
+table.imbox-style {
+    border: 3px solid #f4c430;    /* Yellow */
+}
+table.imbox-move {
+    border: 3px solid #9932cc;    /* Purple */
+}
+table.imbox-protection {
+    border: 3px solid #bba;       /* Gray-gold */
+}
+table.imbox-license {
+    border: 3px solid #88a;       /* Dark gray */
+    background: #f7f8ff;          /* Light gray */
+}
+table.imbox-featured {
+    border: 3px solid #cba135;    /* Brown-gold */
+}
+ 
+/* Category message box styles */
+table.cmbox {
+    margin: 3px 10%;
+    border-collapse: collapse;
+    border: 1px solid #aaa; 
+    background: #DFE8FF;    /* Default "notice" blue */
+}
+ 
+table.cmbox-notice {
+    background: #D8E8FF;    /* Blue */
+}
+table.cmbox-speedy {
+    margin-top: 4px;
+    margin-bottom: 4px;
+    border: 4px solid #b22222;    /* Red */
+    background: #FFDBDB;          /* Pink */
+}
+table.cmbox-delete {
+    background: #FFDBDB;    /* Red */
+}
+table.cmbox-content {
+    background: #FFE7CE;    /* Orange */
+}
+table.cmbox-style {
+    background: #FFF9DB;    /* Yellow */
+}
+table.cmbox-move {
+    background: #E4D8FF;    /* Purple */
+}
+table.cmbox-protection {
+    background: #EFEFE1;    /* Gray-gold */
+}
+ 
+/* Other pages message box styles */
+table.ombox {
+    margin: 4px 10%; 
+    border-collapse: collapse; 
+    border: 1px solid #aaa;       /* Default "notice" gray */
+    background: #f9f9f9;
+}
+ 
+table.ombox-notice {
+    border: 1px solid #aaa;       /* Gray */
+}
+table.ombox-speedy {
+    border: 2px solid #b22222;    /* Red */
+    background: #fee;             /* Pink */
+}
+table.ombox-delete {
+    border: 2px solid #b22222;    /* Red */
+}
+table.ombox-content {
+    border: 1px solid #f28500;    /* Orange */
+}
+table.ombox-style {
+    border: 1px solid #f4c430;    /* Yellow */
+}
+table.ombox-move {
+    border: 1px solid #9932cc;    /* Purple */
+}
+table.ombox-protection {
+    border: 2px solid #bba;       /* Gray-gold */
+}
+ 
+/* Talk page message box styles */
+table.tmbox {
+    margin: 4px 10%;
+    border-collapse: collapse;
+    border: 1px solid #c0c090;    /* Default "notice" gray-brown */
+    background: #f8eaba;
+}
+.mediawiki .mbox-inside .tmbox { /* For tmboxes inside other templates. The "mediawiki" */
+    margin: 2px 0;               /* class ensures that this declaration overrides other */
+    width: 100%;  /* For Safari and Opera */     /* styles (including mbox-small above) */
+}
+.mbox-inside .tmbox.mbox-small { /* "small" tmboxes should not be small when  */
+    line-height: 1.5em;          /* also "nested", so reset styles that are   */   
+    font-size: 100%;             /* set in "mbox-small" above.                */
+}
+ 
+table.tmbox-speedy {
+    border: 2px solid #b22222;    /* Red */
+    background: #fee;             /* Pink */
+}
+table.tmbox-delete {
+    border: 2px solid #b22222;    /* Red */
+}
+table.tmbox-content {
+    border: 2px solid #f28500;    /* Orange */
+}
+table.tmbox-style {
+    border: 2px solid #f4c430;    /* Yellow */
+}
+table.tmbox-move {
+    border: 2px solid #9932cc;    /* Purple */
+}
+table.tmbox-protection,
+table.tmbox-notice {
+    border: 1px solid #c0c090;    /* Gray-brown */
+}
+ 
+/* Disambig and set index box styles */
+table.dmbox {
+    clear: both; 
+    margin: 0.9em 1em; 
+    border-top: 1px solid #ccc; 
+    border-bottom: 1px solid #ccc; 
+    background: transparent;
+}
+ 
+/* Footer and header message box styles */
+table.fmbox {
+    clear: both;
+    margin: 0.2em 0;
+    width: 100%;
+    border: 1px solid #aaa;
+    background: #f9f9f9;     /* Default "system" gray */
+}
+table.fmbox-system {
+    background: #f9f9f9;
+}
+table.fmbox-warning {
+    border: 1px solid #bb7070;  /* Dark pink */
+    background: #ffdbdb;        /* Pink */
+}
+table.fmbox-editnotice {
+    background: transparent;
+}
+/* Div based "warning" style fmbox messages. */
+div.mw-warning-with-logexcerpt,
+div.mw-lag-warn-high,
+div.mw-cascadeprotectedwarning,
+div#mw-protect-cascadeon {
+    clear: both;
+    margin: 0.2em 0;
+    border: 1px solid #bb7070;
+    background: #ffdbdb;
+    padding: 0.25em 0.9em;
+}
+/* Div based "system" style fmbox messages. Used in 
+   [[MediaWiki:Noarticletext]] and [[MediaWiki:Readonly lag]]. */
+div.mw-lag-warn-normal,
+div.noarticletext,
+div.fmbox-system {
+    clear: both;
+    margin: 0.2em 0;
+    border: 1px solid #aaa;
+    background: #f9f9f9;
+    padding: 0.25em 0.9em;
+}
+
+/* article, talk, help, picture, portal, userpage, category */
+body.ns-0 h1.firstHeading { padding-right: 28px; background: url(http://upload.wikimedia.org/wikipedia/ar/8/8c/25px-Quill-Nuvola_svg.png) right no-repeat; } 
+
+body.ns-1 h1.firstHeading { padding-right: 28px; background: url(http://upload.wikimedia.org/wikipedia/ar/7/74/25px-Crystal_kate_green.png) right no-repeat; } 
+
+body.ns-12 h1.firstHeading { padding-right: 28px; background: url(http://upload.wikimedia.org/wikipedia/ar/2/28/25px-Help-browser_svg.png) right no-repeat; } 
+
+body.ns-6 h1.firstHeading { padding-right: 28px; background: url(http://upload.wikimedia.org/wikipedia/ar/3/3f/25px-Crystal_128_kview.png) right no-repeat; } 
+
+body.ns-100 h1.firstHeading { padding-right: 28px; background: url(http://upload.wikimedia.org/wikipedia/ar/c/c8/25px-Portal_svg.png) right no-repeat; } 
+
+body.ns-2 h1.firstHeading { padding-right: 28px; background: url(http://upload.wikimedia.org/wikipedia/ar/c/c3/25px-Crystal_personal.png) right no-repeat; } 
+
+body.ns-14 h1.firstHeading { padding-right: 28px; background: url(http://upload.wikimedia.org/wikipedia/ar/1/11/25px-Folder-blue-2_0_svg.png) right no-repeat; } 
+
+html > body div#bodyContent ol {
+        display: block;
+}
+
+/* default skin for navigation boxes */
+table.navbox {            /* navbox container style */
+  border:1px solid #aaa;
+  width:100%; 
+  margin:auto;
+  clear:both;
+  font-size:88%;
+  text-align:center;
+  padding:1px;
+}
+table.navbox + table.navbox {
+  margin-top:-1px;        /* single pixel border between adjacent navboxes (doesn't work for IE6, but that's okay) */
+}
+.navbox-title, .navbox-abovebelow, table.navbox th {
+  text-align:center;      /* title and above/below styles */
+  padding-left:1em;
+  padding-right:1em;
+}
+.navbox-group {           /* group style */
+  white-space:nowrap;
+  text-align:left;
+  font-weight:bold;
+  padding-left:1em;
+  padding-right:1em;
+}
+.navbox, .navbox-subgroup {
+  background:#fdfdfd;     /* Background color */
+}
+.navbox-list {
+  border-color:#fdfdfd;   /* Must match background color */
+}
+.navbox-title, table.navbox th {
+  background:#ccccff;     /* Level 1 color */
+}
+.navbox-abovebelow, .navbox-group, .navbox-subgroup .navbox-title {
+  background:#ddddff;     /* Level 2 color */
+}
+.navbox-subgroup .navbox-group, .navbox-subgroup .navbox-abovebelow {
+  background:#e6e6ff;     /* Level 3 color */
+}
+.navbox-subgroup {
+  padding-right: 2px;
+}
+.navbox-even {
+  background:#f7f7f7;     /* Even row striping */
+}
+.navbox-odd {
+  background:transparent; /* Odd row striping */
+}
+
+.plainlinksneverexpand a
+{
+  background: none !important;
+  padding: 0 !important;
+}
+
+body.mediawiki table.mbox-small {
+    clear: left;
+    float: left;
+    margin: 4px 1em 4px 0;
+    width: 238px;
+    font-size: 88%;
+    line-height: 1.25em;
+}
+
+/* Cell sizes for ambox/tmbox/imbox/cmbox/ombox/fmbox/dmbox message boxes */
+th.mbox-text, td.mbox-text {     /* The message body cell(s) */
+    border: none; 
+    padding: 0.25em 0.9em;       /* 0.9em left/right */
+    width: 100%;    /* Make all mboxes the same width regardless of text length */
+}
+td.mbox-image {                  /* The left image cell */
+    border: none; 
+    padding: 2px 0.9em 2px 0;    /* 0.9em left, 0px right */
+    text-align: center; 
+}
+td.mbox-imageright {             /* The right image cell */
+    border: none;
+    padding: 2px 0 2px 0.9em;    /* 0px left, 0.9em right */
+    text-align: center; 
+}
+
+/* For {{Coord|display=title}} */
+#coordinates {  
+    position: absolute;
+    z-index: 1;
+    border: none;
+    background: none;
+    left: 30px;
+    top: 4.4em;
+    float: left;
+    margin: 0.0em;
+    padding: 0.0em;
+    line-height: 1.5em;
+    text-align: right;
+    text-indent: 0;
+    font-size: 85%;
+    text-transform: none;
+    white-space: nowrap;
+}
+
+.flaggedrevs_short {
+  float: left;
+  margin: 0 1em 0 0;
+}
+ 
+/*
+FlaggedRevs box walkaround
+*/
+#contentSub {
+  margin-bottom: 2em;
+}
+
+/* </pre> */
+/* {{Interwiki-all|MediaWiki:Common.css}} */
