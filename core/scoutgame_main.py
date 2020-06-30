@@ -17,7 +17,7 @@
 #  $Source: arabtechies.sourceforge.net
 #
 #***********************************************************************/
-from pysqlite2 import dbapi2 as sqlite
+import sqlite3 as sqlite
 import sys,re,string
 import sys, os
 from ar_ctype import *
